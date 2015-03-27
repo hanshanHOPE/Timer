@@ -1,0 +1,65 @@
+/* line 7, ../sass/Timer.scss */
+body {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #FF6400;
+}
+
+/* line 17, ../sass/Timer.scss */
+.timer {
+  margin-top: 7em;
+  background-image: linear-gradient(#333333, #999999, #333333);
+}
+/* line 20, ../sass/Timer.scss */
+.timer h1 {
+  font-size: 5em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0.5em 0 1em 0;
+  text-shadow: 2px 2px 1px;
+}
+/* line 26, ../sass/Timer.scss */
+.timer .screen {
+  margin: 1em 0 0.5em 0;
+}
+/* line 28, ../sass/Timer.scss */
+.timer .screen div {
+  font-size: 4.5em;
+  display: inline-block;
+  margin: 0;
+  text-shadow: 1px 1px 1px;
+}
+/* line 35, ../sass/Timer.scss */
+.timer .screen div:first-child:after {
+  content: ":";
+  text-shadow: 1px 1px 1px;
+}
+/* line 41, ../sass/Timer.scss */
+.timer .screen div:last-child:before {
+  content: ".";
+  text-shadow: 1px 1px 1px;
+}
+/* line 47, ../sass/Timer.scss */
+.timer .btn {
+  margin: 3em 0 2em 0;
+}
+/* line 49, ../sass/Timer.scss */
+.timer .btn input[type="button"] {
+  border: 0;
+  border-radius: 2px;
+  padding: 1em;
+  width: 6em;
+  font-weight: bold;
+  background-color: rgba(200, 200, 200, 0.8);
+}
+
+/* line 60, ../sass/Timer.scss */
+footer {
+  margin-top: 6em;
+}
+/* line 63, ../sass/Timer.scss */
+footer p a {
+  color: #FF6400;
+}
